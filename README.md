@@ -17,6 +17,13 @@ two points from diﬀerent subsets is at least _d_.
 The frst line contains the number _n_ of points. Each of the following _n_ lines defnes a point
 (_x(i)_, _y(i)_). The last line contains the number _k_ of clusters.
 
+#### Constraints:
+2 ≤ _k_ ≤ _n_ ≤ 200; −10^3 ≤ _x(i)_,_y(i)_ ≤ 10^3 are integers. All points are pairwise diﬀerent.
+
+#### Output Format: 
+Output the largest value of _d_. The absolute value of the diﬀerence between the answer of
+this program and the optimal value is at most 10^−6. To ensure this, we output the answer with
+at least seven digits after the decimal point.
 
 ### Example
 **Input:**
